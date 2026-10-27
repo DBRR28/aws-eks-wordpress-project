@@ -1,0 +1,28 @@
+# AWS credentials
+.aws/
+credentials
+*.pem
+*.key
+
+# Kubernetes credentials and secrets
+.kube/
+kubeconfig
+*secret*.yaml
+*secret*.yml
+.env
+.env.*
+!.env.example
+
+# Terraform state and sensitive variables
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Helm packaged charts
+*.tgz
